@@ -1,0 +1,122 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f3f8ff;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 90%;
+    margin: 0 auto;
+    max-width: 1200px;
+}
+
+header {
+    text-align: center;
+    padding: 20px;
+    background-color: #7ea8ff;
+    color: white;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2.5em;
+}
+
+header p {
+    font-size: 1.2em;
+}
+
+.subjects {
+    margin: 40px 0;
+    text-align: center;
+}
+
+.subjects h2 {
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+.tiles {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.tile {
+    background-color: #fff;
+    width: 200px;
+    padding: 20px;
+    margin: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    text-align: center;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+}
+
+.tile:hover {
+    transform: scale(1.05);
+    box-shadow: 0 6px 10px rgba(0, 0, 0, 0.15);
+}
+
+.tile h3 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+}
+
+.activities {
+    text-align: center;
+    margin: 40px 0;
+}
+
+.activities button {
+    padding: 15px 30px;
+    background-color: #ffa726;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 1.2em;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.activities button:hover {
+    background-color: #fb8c00;
+}
+
+.parents {
+    margin: 50px auto;
+    text-align: center;
+}
+
+.parents h2 {
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+.parent-content ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.parent-content li {
+    margin: 10px 0;
+}
+
+.parent-content a {
+    color: #7ea8ff;
+    font-size: 1.2em;
+    text-decoration: none;
+}
+
+.parent-content a:hover {
+    text-decoration: underline;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+}
